@@ -6,3 +6,12 @@ grafana_dependencies:
   - ca-certificates
   - libfontconfig
   - gnupg2
+
+grafana_image_renderer_dependancies:
+ - libx11-xcb-dev
+ - libxss1
+ - libnss3
+ - libxtst6
+ - libasound2
+ - libgtk-3-0
+ - libatk-bridge2.0-0
